@@ -136,40 +136,6 @@
     </div>
   </section>
 
-  <!-- Second row: real-robot policy chunks + zero-shot unseen dataset -->
-  <div class="carousel-section-head" style="margin-top:48px">
-    <span class="cs-eyebrow">Real-robot chunks</span>
-    <h3 class="cs-title">The same model running in deployable single-chunk policy mode.</h3>
-    <p class="cs-sub">One real camera frame in, twenty-four joint commands plus nine predicted frames out. This is the mode you would actually run on a physical SO-101 arm.</p>
-  </div>
-  <section class="hero-carousel hero-carousel-secondary">
-    <div class="hero-clip">
-      <video src="demo/heldout_ep50/pred_front_slow.mp4" autoplay loop muted playsinline></video>
-      <div class="meta">
-        <div class="ep" style="color:#C96840">Held-out scene</div>
-        <div class="prompt">"Pick the red cube" — episode 50</div>
-      </div>
-    </div>
-    <div class="hero-clip">
-      <video src="demo_mid/ep50_f150_grasp/pred_front_slow.mp4" autoplay loop muted playsinline></video>
-      <div class="meta">
-        <div class="ep" style="color:#A07040">Mid-episode resume</div>
-        <div class="prompt">Continue from frame 150 of a held-out trajectory</div>
-      </div>
-    </div>
-    <div class="hero-clip">
-      <video src="zeroshot_chunk/f000/pred_front.mp4" autoplay loop muted playsinline></video>
-      <div class="meta">
-        <div class="ep" style="color:#6A4EA8">Zero-shot · unseen dataset</div>
-        <div class="prompt">"Pick up the box and place it in the red bowl"</div>
-      </div>
-    </div>
-  </section>
-
-  <p class="muted" style="font-size:12.5px;margin-top:18px;font-family:var(--font-mono);text-align:center">
-    Nine of twenty-three rollouts shown. Browse the <a href="demo.html">interactive gallery</a> for all of them, including six mid-episode resume points and seven additional zero-shot samples.
-  </p>
-
   <!-- Plain-English explainer -->
   <section class="section-head" style="margin-top:80px">
     <div class="eyebrow">What it does</div>
