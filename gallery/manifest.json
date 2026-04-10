@@ -1,5 +1,37 @@
 [
   {
+    "tag": "pick_blue_ep62",
+    "episode": 62,
+    "category": "simple-pick",
+    "task_summary": "simple pick (blue cube)",
+    "prompt": "Pick the blue cube",
+    "prompt_kind": "training",
+    "type": "dreamgen",
+    "duration_sec": 2.8,
+    "thumbnail": "gallery/pick_blue_ep62/thumbnail.jpg",
+    "videos": {
+      "front": "gallery/pick_blue_ep62/rollout_front.mp4",
+      "top": "gallery/pick_blue_ep62/rollout_top.mp4",
+      "gripper": "gallery/pick_blue_ep62/rollout_gripper.mp4"
+    }
+  },
+  {
+    "tag": "sort_rb_ep279",
+    "episode": 279,
+    "category": "sort",
+    "task_summary": "two-bin colour sort",
+    "prompt": "Put red cubes on the right bowl and blue cubes on the left bowl",
+    "prompt_kind": "training",
+    "type": "dreamgen",
+    "duration_sec": 3.0,
+    "thumbnail": "gallery/sort_rb_ep279/thumbnail.jpg",
+    "videos": {
+      "front": "gallery/sort_rb_ep279/rollout_front.mp4",
+      "top": "gallery/sort_rb_ep279/rollout_top.mp4",
+      "gripper": "gallery/sort_rb_ep279/rollout_gripper.mp4"
+    }
+  },
+  {
     "tag": "ep000_train",
     "episode": 0,
     "category": "simple-pick",
